@@ -1,0 +1,13 @@
+$color: royalblue;
+
+body{
+	background-color: lighten($color, 32%)
+}
+p{
+	font-color: invert($color);
+}
+.Umbrella{
+	height: 32px;
+	width: 64px;
+	background-color: dark($color, 16%);
+}

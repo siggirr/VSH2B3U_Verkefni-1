@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,IAAI;EACH,gBAAgB,EAAE,OACnB;;AACA,CAAC;EACA,UAAU,EAAE,OAAc;;AAE3B,SAAS;EACR,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,oBAAiB",
+"sources": ["test5styles.scss"],
+"names": [],
+"file": "test5styles.css"
+}

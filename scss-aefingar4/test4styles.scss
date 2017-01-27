@@ -1,0 +1,11 @@
+/*Æfing 4*/
+
+$green: green;
+$border: 16px;
+$material: solid;
+
+$merge: $border $material $green;
+
+.square{
+	border: $merge;
+}

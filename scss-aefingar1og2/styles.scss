@@ -1,0 +1,41 @@
+@charset "utf-8";
+$myColor: red;
+$redcolor: rgb(255,100,100);
+$bodywidth: 40em;
+$borderW: 10px 2px 0 1px;
+$borderStyle: 3px dotted blue;
+$feitletur: bold;
+$middle: center;
+$skilabod: "Þetta er textaskilboð frá SCSS";
+
+* {
+	box-sizing: border-box; 
+}
+
+ body{
+ 	max-width: $bodywidth;
+ 	margin: 0 auto;
+ 	border: 1px solid $redcolor;
+ 	border: $borderW;
+ 	border: $borderStyle;
+ 	padding: 0 1em;
+ }
+ .intro {
+ 	text-align: $middle;
+ }
+
+ .box{
+ 	border: 5px solid $myColor;
+ 	padding: 10px;
+ }
+ .box2 {
+ 	border: 2px groove red;
+ 	padding: 10px;
+
+ }
+ .box2:after {
+ 	content: $skilabod;
+ }
+ .skull{
+ 	font-weight: $feitletur;
+ }
